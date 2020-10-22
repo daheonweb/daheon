@@ -547,6 +547,12 @@ header {
   display: inline;
 }
 
+#home .item #colorstrip {
+  width: 100%; height: 5px;
+  border-style: solid;
+  border-color: #45489a;
+}
+
 #home .item .text-content h3 {
   padding-top: 7.5px;
   margin-top: 0px;
