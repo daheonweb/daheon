@@ -452,6 +452,130 @@ header {
 .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
 
 
+/* home Style */
+
+#home {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 80px;
+}
+
+#home .tabs {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  height: 90px;
+  width: 100%;
+  background-color: #eee;
+  border-bottom: 10px solid #45489a;
+}
+
+#home .tabs li {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#home .tabs a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  color: #232323;
+  font-size: 19px;
+  line-height: 80px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+#home .tabs a:hover {
+  color: #45489a;
+}
+
+
+#home .tabs .active:hover {
+  color: #fff;
+}
+
+#home .tabs .active {
+  background-color: #45489a;
+  color: #fff;
+}
+
+.tabgroup {
+  background-color: #f4f4f4;
+  padding: 20px 30px;
+}
+
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+#home .tabgroup ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#home .tabgroup ul li {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+#home .tabgroup ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+#home .tabgroup ul li img {
+  float: left;
+  margin-right: 30px;
+  max-width: 100%;
+  overflow: hidden;
+}
+#home .tabgroup ul li .text-content {
+  display: inline;
+}
+
+#home .item .text-content h3 {
+  padding-top: 7.5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #232323;
+  letter-spacing: 0.5px;
+  line-height: 170%;
+}
+
+#home .item .text-content span {
+  padding-top: 7.5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-style: normal;
+  font-weight: 700;
+  color: #45489a;
+}
+
+#home .item .text-content .accent-button {
+  margin-top: 25px;
+}
+
+
+
 /* Painting Style */
 
 #painting {
@@ -617,7 +741,7 @@ header {
 
 
 
-/* Video Video Style */
+/* Video Style */
 
 #video {
   text-align: center;
@@ -719,7 +843,7 @@ header {
 
 
 
-/* Blog Style */
+/* Exhib Style */
 
 #exhib {
   padding-left: 60px;
